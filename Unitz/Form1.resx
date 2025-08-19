@@ -117,20 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnTimeClear.Location" type="System.Drawing.Point, System.Drawing">
-    <value>536, 49</value>
-  </data>
-  <data name="btnTimeClear.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnTimeClear.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="btnTimeClear.Text" xml:space="preserve">
-    <value>Clear</value>
-  </data>
   <data name="&gt;&gt;btnTimeClear.Name" xml:space="preserve">
     <value>btnTimeClear</value>
   </data>
@@ -142,18 +128,6 @@
   </data>
   <data name="&gt;&gt;btnTimeClear.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="btnTimeCalculate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>536, 78</value>
-  </data>
-  <data name="btnTimeCalculate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="btnTimeCalculate.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="btnTimeCalculate.Text" xml:space="preserve">
-    <value>Calculate</value>
   </data>
   <data name="&gt;&gt;btnTimeCalculate.Name" xml:space="preserve">
     <value>btnTimeCalculate</value>
@@ -167,21 +141,6 @@
   <data name="&gt;&gt;btnTimeCalculate.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="lMillennia.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lMillennia.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 16</value>
-  </data>
-  <data name="lMillennia.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 13</value>
-  </data>
-  <data name="lMillennia.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="lMillennia.Text" xml:space="preserve">
-    <value>Millennia</value>
-  </data>
   <data name="&gt;&gt;lMillennia.Name" xml:space="preserve">
     <value>lMillennia</value>
   </data>
@@ -193,21 +152,6 @@
   </data>
   <data name="&gt;&gt;lMillennia.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="lCenturies.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lCenturies.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 16</value>
-  </data>
-  <data name="lCenturies.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 13</value>
-  </data>
-  <data name="lCenturies.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="lCenturies.Text" xml:space="preserve">
-    <value>Centuries</value>
   </data>
   <data name="&gt;&gt;lCenturies.Name" xml:space="preserve">
     <value>lCenturies</value>
@@ -221,21 +165,6 @@
   <data name="&gt;&gt;lCenturies.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="lDecades.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lDecades.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 16</value>
-  </data>
-  <data name="lDecades.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 13</value>
-  </data>
-  <data name="lDecades.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="lDecades.Text" xml:space="preserve">
-    <value>Decades</value>
-  </data>
   <data name="&gt;&gt;lDecades.Name" xml:space="preserve">
     <value>lDecades</value>
   </data>
@@ -247,21 +176,6 @@
   </data>
   <data name="&gt;&gt;lDecades.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="lYears.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lYears.Location" type="System.Drawing.Point, System.Drawing">
-    <value>324, 17</value>
-  </data>
-  <data name="lYears.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 13</value>
-  </data>
-  <data name="lYears.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="lYears.Text" xml:space="preserve">
-    <value>Years</value>
   </data>
   <data name="&gt;&gt;lYears.Name" xml:space="preserve">
     <value>lYears</value>
@@ -275,21 +189,6 @@
   <data name="&gt;&gt;lYears.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="lMonths.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lMonths.Location" type="System.Drawing.Point, System.Drawing">
-    <value>430, 17</value>
-  </data>
-  <data name="lMonths.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 13</value>
-  </data>
-  <data name="lMonths.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="lMonths.Text" xml:space="preserve">
-    <value>Months</value>
-  </data>
   <data name="&gt;&gt;lMonths.Name" xml:space="preserve">
     <value>lMonths</value>
   </data>
@@ -301,21 +200,6 @@
   </data>
   <data name="&gt;&gt;lMonths.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="lWeeks.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lWeeks.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 58</value>
-  </data>
-  <data name="lWeeks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 13</value>
-  </data>
-  <data name="lWeeks.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="lWeeks.Text" xml:space="preserve">
-    <value>Weeks</value>
   </data>
   <data name="&gt;&gt;lWeeks.Name" xml:space="preserve">
     <value>lWeeks</value>
@@ -329,21 +213,6 @@
   <data name="&gt;&gt;lWeeks.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="lDays.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lDays.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 58</value>
-  </data>
-  <data name="lDays.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 13</value>
-  </data>
-  <data name="lDays.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="lDays.Text" xml:space="preserve">
-    <value>Days</value>
-  </data>
   <data name="&gt;&gt;lDays.Name" xml:space="preserve">
     <value>lDays</value>
   </data>
@@ -355,21 +224,6 @@
   </data>
   <data name="&gt;&gt;lDays.ZOrder" xml:space="preserve">
     <value>8</value>
-  </data>
-  <data name="lHours.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lHours.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 59</value>
-  </data>
-  <data name="lHours.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 13</value>
-  </data>
-  <data name="lHours.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="lHours.Text" xml:space="preserve">
-    <value>Hours</value>
   </data>
   <data name="&gt;&gt;lHours.Name" xml:space="preserve">
     <value>lHours</value>
@@ -383,21 +237,6 @@
   <data name="&gt;&gt;lHours.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="lMinutes.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lMinutes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>321, 59</value>
-  </data>
-  <data name="lMinutes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 13</value>
-  </data>
-  <data name="lMinutes.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="lMinutes.Text" xml:space="preserve">
-    <value>Minutes</value>
-  </data>
   <data name="&gt;&gt;lMinutes.Name" xml:space="preserve">
     <value>lMinutes</value>
   </data>
@@ -409,6 +248,374 @@
   </data>
   <data name="&gt;&gt;lMinutes.ZOrder" xml:space="preserve">
     <value>10</value>
+  </data>
+  <data name="&gt;&gt;lSeconds.Name" xml:space="preserve">
+    <value>lSeconds</value>
+  </data>
+  <data name="&gt;&gt;lSeconds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lSeconds.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;lSeconds.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tbMillennia.Name" xml:space="preserve">
+    <value>tbMillennia</value>
+  </data>
+  <data name="&gt;&gt;tbMillennia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbMillennia.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbMillennia.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;tbCenturies.Name" xml:space="preserve">
+    <value>tbCenturies</value>
+  </data>
+  <data name="&gt;&gt;tbCenturies.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbCenturies.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbCenturies.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tbDecades.Name" xml:space="preserve">
+    <value>tbDecades</value>
+  </data>
+  <data name="&gt;&gt;tbDecades.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbDecades.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbDecades.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;tbYears.Name" xml:space="preserve">
+    <value>tbYears</value>
+  </data>
+  <data name="&gt;&gt;tbYears.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbYears.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbYears.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tbMonths.Name" xml:space="preserve">
+    <value>tbMonths</value>
+  </data>
+  <data name="&gt;&gt;tbMonths.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbMonths.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbMonths.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;tbWeeks.Name" xml:space="preserve">
+    <value>tbWeeks</value>
+  </data>
+  <data name="&gt;&gt;tbWeeks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbWeeks.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbWeeks.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;tbDays.Name" xml:space="preserve">
+    <value>tbDays</value>
+  </data>
+  <data name="&gt;&gt;tbDays.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbDays.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbDays.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;tbHours.Name" xml:space="preserve">
+    <value>tbHours</value>
+  </data>
+  <data name="&gt;&gt;tbHours.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHours.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbHours.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;tbMinutes.Name" xml:space="preserve">
+    <value>tbMinutes</value>
+  </data>
+  <data name="&gt;&gt;tbMinutes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbMinutes.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbMinutes.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;tbSeconds.Name" xml:space="preserve">
+    <value>tbSeconds</value>
+  </data>
+  <data name="&gt;&gt;tbSeconds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbSeconds.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbSeconds.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="gbTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="gbTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>617, 107</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gbTime.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbTime.Text" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="&gt;&gt;gbTime.Name" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;gbTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbTime.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbTime.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbSeconds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 78</value>
+  </data>
+  <data name="tbSeconds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="tbSeconds.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbSeconds.Name" xml:space="preserve">
+    <value>tbSeconds</value>
+  </data>
+  <data name="&gt;&gt;tbSeconds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbSeconds.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbSeconds.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="tbMinutes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 78</value>
+  </data>
+  <data name="tbMinutes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="tbMinutes.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbMinutes.Name" xml:space="preserve">
+    <value>tbMinutes</value>
+  </data>
+  <data name="&gt;&gt;tbMinutes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbMinutes.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbMinutes.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="tbHours.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 78</value>
+  </data>
+  <data name="tbHours.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="tbHours.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbHours.Name" xml:space="preserve">
+    <value>tbHours</value>
+  </data>
+  <data name="&gt;&gt;tbHours.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHours.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbHours.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="tbDays.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 78</value>
+  </data>
+  <data name="tbDays.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="tbDays.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tbDays.Name" xml:space="preserve">
+    <value>tbDays</value>
+  </data>
+  <data name="&gt;&gt;tbDays.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbDays.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbDays.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="tbWeeks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 78</value>
+  </data>
+  <data name="tbWeeks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="tbWeeks.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tbWeeks.Name" xml:space="preserve">
+    <value>tbWeeks</value>
+  </data>
+  <data name="&gt;&gt;tbWeeks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbWeeks.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbWeeks.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="tbMonths.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 36</value>
+  </data>
+  <data name="tbMonths.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="tbMonths.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbMonths.Name" xml:space="preserve">
+    <value>tbMonths</value>
+  </data>
+  <data name="&gt;&gt;tbMonths.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbMonths.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbMonths.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="tbYears.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 36</value>
+  </data>
+  <data name="tbYears.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="tbYears.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbYears.Name" xml:space="preserve">
+    <value>tbYears</value>
+  </data>
+  <data name="&gt;&gt;tbYears.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbYears.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbYears.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="tbDecades.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 36</value>
+  </data>
+  <data name="tbDecades.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="tbDecades.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tbDecades.Name" xml:space="preserve">
+    <value>tbDecades</value>
+  </data>
+  <data name="&gt;&gt;tbDecades.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbDecades.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbDecades.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="tbCenturies.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 36</value>
+  </data>
+  <data name="tbCenturies.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="tbCenturies.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tbCenturies.Name" xml:space="preserve">
+    <value>tbCenturies</value>
+  </data>
+  <data name="&gt;&gt;tbCenturies.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbCenturies.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbCenturies.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tbMillennia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 36</value>
+  </data>
+  <data name="tbMillennia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="tbMillennia.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tbMillennia.Name" xml:space="preserve">
+    <value>tbMillennia</value>
+  </data>
+  <data name="&gt;&gt;tbMillennia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbMillennia.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;tbMillennia.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="lSeconds.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -437,238 +644,577 @@
   <data name="&gt;&gt;lSeconds.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="tbMillennia.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 36</value>
+  <data name="lMinutes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="tbMillennia.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+  <data name="lMinutes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 59</value>
   </data>
-  <data name="tbMillennia.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="lMinutes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
   </data>
-  <data name="&gt;&gt;tbMillennia.Name" xml:space="preserve">
-    <value>tbMillennia</value>
+  <data name="lMinutes.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="&gt;&gt;tbMillennia.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lMinutes.Text" xml:space="preserve">
+    <value>Minutes</value>
   </data>
-  <data name="&gt;&gt;tbMillennia.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lMinutes.Name" xml:space="preserve">
+    <value>lMinutes</value>
+  </data>
+  <data name="&gt;&gt;lMinutes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lMinutes.Parent" xml:space="preserve">
     <value>gbTime</value>
   </data>
-  <data name="&gt;&gt;tbMillennia.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lMinutes.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lHours.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lHours.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 59</value>
+  </data>
+  <data name="lHours.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="lHours.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lHours.Text" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="&gt;&gt;lHours.Name" xml:space="preserve">
+    <value>lHours</value>
+  </data>
+  <data name="&gt;&gt;lHours.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lHours.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;lHours.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lDays.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lDays.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 58</value>
+  </data>
+  <data name="lDays.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="lDays.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
-  <data name="tbCenturies.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 36</value>
+  <data name="lDays.Text" xml:space="preserve">
+    <value>Days</value>
   </data>
-  <data name="tbCenturies.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+  <data name="&gt;&gt;lDays.Name" xml:space="preserve">
+    <value>lDays</value>
   </data>
-  <data name="tbCenturies.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="&gt;&gt;lDays.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tbCenturies.Name" xml:space="preserve">
-    <value>tbCenturies</value>
-  </data>
-  <data name="&gt;&gt;tbCenturies.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbCenturies.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lDays.Parent" xml:space="preserve">
     <value>gbTime</value>
   </data>
-  <data name="&gt;&gt;tbCenturies.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lDays.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lWeeks.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lWeeks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 58</value>
+  </data>
+  <data name="lWeeks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="lWeeks.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  <data name="tbDecades.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 36</value>
+  <data name="lWeeks.Text" xml:space="preserve">
+    <value>Weeks</value>
   </data>
-  <data name="tbDecades.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+  <data name="&gt;&gt;lWeeks.Name" xml:space="preserve">
+    <value>lWeeks</value>
   </data>
-  <data name="tbDecades.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;lWeeks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tbDecades.Name" xml:space="preserve">
-    <value>tbDecades</value>
-  </data>
-  <data name="&gt;&gt;tbDecades.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbDecades.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lWeeks.Parent" xml:space="preserve">
     <value>gbTime</value>
   </data>
-  <data name="&gt;&gt;tbDecades.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lWeeks.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lMonths.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lMonths.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 17</value>
+  </data>
+  <data name="lMonths.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="lMonths.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
-  <data name="tbYears.Location" type="System.Drawing.Point, System.Drawing">
-    <value>324, 36</value>
+  <data name="lMonths.Text" xml:space="preserve">
+    <value>Months</value>
   </data>
-  <data name="tbYears.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+  <data name="&gt;&gt;lMonths.Name" xml:space="preserve">
+    <value>lMonths</value>
   </data>
-  <data name="tbYears.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="&gt;&gt;lMonths.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tbYears.Name" xml:space="preserve">
-    <value>tbYears</value>
-  </data>
-  <data name="&gt;&gt;tbYears.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbYears.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lMonths.Parent" xml:space="preserve">
     <value>gbTime</value>
   </data>
-  <data name="&gt;&gt;tbYears.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lMonths.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lYears.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lYears.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 17</value>
+  </data>
+  <data name="lYears.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="lYears.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
-  <data name="tbMonths.Location" type="System.Drawing.Point, System.Drawing">
-    <value>430, 36</value>
+  <data name="lYears.Text" xml:space="preserve">
+    <value>Years</value>
   </data>
-  <data name="tbMonths.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+  <data name="&gt;&gt;lYears.Name" xml:space="preserve">
+    <value>lYears</value>
   </data>
-  <data name="tbMonths.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;lYears.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tbMonths.Name" xml:space="preserve">
-    <value>tbMonths</value>
-  </data>
-  <data name="&gt;&gt;tbMonths.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tbMonths.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lYears.Parent" xml:space="preserve">
     <value>gbTime</value>
   </data>
-  <data name="&gt;&gt;tbMonths.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lYears.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lDecades.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lDecades.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 16</value>
+  </data>
+  <data name="lDecades.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="lDecades.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
-  <data name="tbWeeks.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 78</value>
+  <data name="lDecades.Text" xml:space="preserve">
+    <value>Decades</value>
   </data>
-  <data name="tbWeeks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+  <data name="&gt;&gt;lDecades.Name" xml:space="preserve">
+    <value>lDecades</value>
   </data>
-  <data name="tbWeeks.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;lDecades.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lDecades.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;lDecades.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;tbWeeks.Name" xml:space="preserve">
-    <value>tbWeeks</value>
+  <data name="lCenturies.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;tbWeeks.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lCenturies.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 16</value>
   </data>
-  <data name="&gt;&gt;tbWeeks.Parent" xml:space="preserve">
-    <value>gbTime</value>
+  <data name="lCenturies.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
   </data>
-  <data name="&gt;&gt;tbWeeks.ZOrder" xml:space="preserve">
+  <data name="lCenturies.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
-  <data name="tbDays.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 78</value>
+  <data name="lCenturies.Text" xml:space="preserve">
+    <value>Centuries</value>
   </data>
-  <data name="tbDays.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+  <data name="&gt;&gt;lCenturies.Name" xml:space="preserve">
+    <value>lCenturies</value>
   </data>
-  <data name="tbDays.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;lCenturies.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lCenturies.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;lCenturies.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;tbDays.Name" xml:space="preserve">
-    <value>tbDays</value>
+  <data name="lMillennia.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;tbDays.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lMillennia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
   </data>
-  <data name="&gt;&gt;tbDays.Parent" xml:space="preserve">
-    <value>gbTime</value>
+  <data name="lMillennia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
   </data>
-  <data name="&gt;&gt;tbDays.ZOrder" xml:space="preserve">
+  <data name="lMillennia.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
-  <data name="tbHours.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 78</value>
+  <data name="lMillennia.Text" xml:space="preserve">
+    <value>Millennia</value>
   </data>
-  <data name="tbHours.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+  <data name="&gt;&gt;lMillennia.Name" xml:space="preserve">
+    <value>lMillennia</value>
   </data>
-  <data name="tbHours.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;lMillennia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lMillennia.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;lMillennia.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;tbHours.Name" xml:space="preserve">
-    <value>tbHours</value>
+  <data name="btnTimeCalculate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 78</value>
   </data>
-  <data name="&gt;&gt;tbHours.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnTimeCalculate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
-  <data name="&gt;&gt;tbHours.Parent" xml:space="preserve">
-    <value>gbTime</value>
-  </data>
-  <data name="&gt;&gt;tbHours.ZOrder" xml:space="preserve">
+  <data name="btnTimeCalculate.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
-  <data name="tbMinutes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>324, 78</value>
+  <data name="btnTimeCalculate.Text" xml:space="preserve">
+    <value>Calculate</value>
   </data>
-  <data name="tbMinutes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+  <data name="&gt;&gt;btnTimeCalculate.Name" xml:space="preserve">
+    <value>btnTimeCalculate</value>
   </data>
-  <data name="tbMinutes.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;btnTimeCalculate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTimeCalculate.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;btnTimeCalculate.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;tbMinutes.Name" xml:space="preserve">
-    <value>tbMinutes</value>
+  <data name="btnTimeClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 49</value>
   </data>
-  <data name="&gt;&gt;tbMinutes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnTimeClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
-  <data name="&gt;&gt;tbMinutes.Parent" xml:space="preserve">
-    <value>gbTime</value>
-  </data>
-  <data name="&gt;&gt;tbMinutes.ZOrder" xml:space="preserve">
+  <data name="btnTimeClear.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
-  <data name="tbSeconds.Location" type="System.Drawing.Point, System.Drawing">
-    <value>430, 78</value>
+  <data name="btnTimeClear.Text" xml:space="preserve">
+    <value>Clear</value>
   </data>
-  <data name="tbSeconds.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="&gt;&gt;btnTimeClear.Name" xml:space="preserve">
+    <value>btnTimeClear</value>
+  </data>
+  <data name="&gt;&gt;btnTimeClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTimeClear.Parent" xml:space="preserve">
+    <value>gbTime</value>
+  </data>
+  <data name="&gt;&gt;btnTimeClear.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnDistanceClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 74</value>
+  </data>
+  <data name="btnDistanceClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnDistanceClear.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnDistanceClear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;btnDistanceClear.Name" xml:space="preserve">
+    <value>btnDistanceClear</value>
+  </data>
+  <data name="&gt;&gt;btnDistanceClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDistanceClear.Parent" xml:space="preserve">
+    <value>gbDistance</value>
+  </data>
+  <data name="&gt;&gt;btnDistanceClear.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnDistanceCalculate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 103</value>
+  </data>
+  <data name="btnDistanceCalculate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnDistanceCalculate.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnDistanceCalculate.Text" xml:space="preserve">
+    <value>Calculate</value>
+  </data>
+  <data name="&gt;&gt;btnDistanceCalculate.Name" xml:space="preserve">
+    <value>btnDistanceCalculate</value>
+  </data>
+  <data name="&gt;&gt;btnDistanceCalculate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDistanceCalculate.Parent" xml:space="preserve">
+    <value>gbDistance</value>
+  </data>
+  <data name="&gt;&gt;btnDistanceCalculate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbMile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 54</value>
+  </data>
+  <data name="tbMile.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
   </data>
-  <data name="tbSeconds.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="tbMile.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
-  <data name="&gt;&gt;tbSeconds.Name" xml:space="preserve">
-    <value>tbSeconds</value>
+  <data name="&gt;&gt;tbMile.Name" xml:space="preserve">
+    <value>tbMile</value>
   </data>
-  <data name="&gt;&gt;tbSeconds.Type" xml:space="preserve">
+  <data name="&gt;&gt;tbMile.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tbSeconds.Parent" xml:space="preserve">
-    <value>gbTime</value>
+  <data name="&gt;&gt;tbMile.Parent" xml:space="preserve">
+    <value>gbDistance</value>
   </data>
-  <data name="&gt;&gt;tbSeconds.ZOrder" xml:space="preserve">
-    <value>21</value>
+  <data name="&gt;&gt;tbMile.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="gbTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+  <data name="tbKm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 54</value>
   </data>
-  <data name="gbTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>617, 107</value>
+  <data name="tbKm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
-  <data name="gbTime.TabIndex" type="System.Int32, mscorlib">
+  <data name="tbKm.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tbKm.Name" xml:space="preserve">
+    <value>tbKm</value>
+  </data>
+  <data name="&gt;&gt;tbKm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbKm.Parent" xml:space="preserve">
+    <value>gbDistance</value>
+  </data>
+  <data name="&gt;&gt;tbKm.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 54</value>
+  </data>
+  <data name="tbM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="tbM.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tbM.Name" xml:space="preserve">
+    <value>tbM</value>
+  </data>
+  <data name="&gt;&gt;tbM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbM.Parent" xml:space="preserve">
+    <value>gbDistance</value>
+  </data>
+  <data name="&gt;&gt;tbM.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbYard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 54</value>
+  </data>
+  <data name="tbYard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="tbYard.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tbYard.Name" xml:space="preserve">
+    <value>tbYard</value>
+  </data>
+  <data name="&gt;&gt;tbYard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbYard.Parent" xml:space="preserve">
+    <value>gbDistance</value>
+  </data>
+  <data name="&gt;&gt;tbYard.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tbFoot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 54</value>
+  </data>
+  <data name="tbFoot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="tbFoot.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbFoot.Name" xml:space="preserve">
+    <value>tbFoot</value>
+  </data>
+  <data name="&gt;&gt;tbFoot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbFoot.Parent" xml:space="preserve">
+    <value>gbDistance</value>
+  </data>
+  <data name="&gt;&gt;tbFoot.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tbInch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 105</value>
+  </data>
+  <data name="tbInch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="tbInch.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tbInch.Name" xml:space="preserve">
+    <value>tbInch</value>
+  </data>
+  <data name="&gt;&gt;tbInch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbInch.Parent" xml:space="preserve">
+    <value>gbDistance</value>
+  </data>
+  <data name="&gt;&gt;tbInch.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tbDm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 105</value>
+  </data>
+  <data name="tbDm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="tbDm.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tbDm.Name" xml:space="preserve">
+    <value>tbDm</value>
+  </data>
+  <data name="&gt;&gt;tbDm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbDm.Parent" xml:space="preserve">
+    <value>gbDistance</value>
+  </data>
+  <data name="&gt;&gt;tbDm.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tbCm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 105</value>
+  </data>
+  <data name="tbCm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="tbCm.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbCm.Name" xml:space="preserve">
+    <value>tbCm</value>
+  </data>
+  <data name="&gt;&gt;tbCm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbCm.Parent" xml:space="preserve">
+    <value>gbDistance</value>
+  </data>
+  <data name="&gt;&gt;tbCm.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tbMm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 105</value>
+  </data>
+  <data name="tbMm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="tbMm.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbMm.Name" xml:space="preserve">
+    <value>tbMm</value>
+  </data>
+  <data name="&gt;&gt;tbMm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbMm.Parent" xml:space="preserve">
+    <value>gbDistance</value>
+  </data>
+  <data name="&gt;&gt;tbMm.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tbNm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 105</value>
+  </data>
+  <data name="tbNm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="tbNm.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="gbTime.Text" xml:space="preserve">
-    <value>Time</value>
+  <data name="&gt;&gt;tbNm.Name" xml:space="preserve">
+    <value>tbNm</value>
   </data>
-  <data name="&gt;&gt;gbTime.Name" xml:space="preserve">
-    <value>gbTime</value>
+  <data name="&gt;&gt;tbNm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;gbTime.Type" xml:space="preserve">
+  <data name="&gt;&gt;tbNm.Parent" xml:space="preserve">
+    <value>gbDistance</value>
+  </data>
+  <data name="&gt;&gt;tbNm.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="gbDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 125</value>
+  </data>
+  <data name="gbDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>617, 131</value>
+  </data>
+  <data name="gbDistance.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gbDistance.Text" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="&gt;&gt;gbDistance.Name" xml:space="preserve">
+    <value>gbDistance</value>
+  </data>
+  <data name="&gt;&gt;gbDistance.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;gbTime.Parent" xml:space="preserve">
+  <data name="&gt;&gt;gbDistance.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;gbTime.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;gbDistance.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

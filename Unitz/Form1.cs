@@ -97,5 +97,83 @@ namespace Unitz
             tbCenturies.ReadOnly = false;
             tbMillennia.ReadOnly = false;
         }
+
+        private void btnDistanceCalculate_Click(object sender, EventArgs e)
+        {
+            double meters = 0;
+
+            // Megnézzük, melyik TextBoxban van érték
+            if (!string.IsNullOrEmpty(tbNm.Text))
+                meters = double.Parse(tbNm.Text) * 1e-9;
+            else if (!string.IsNullOrEmpty(tbMm.Text))
+                meters = double.Parse(tbMm.Text) * 1e-3;
+            else if (!string.IsNullOrEmpty(tbCm.Text))
+                meters = double.Parse(tbCm.Text) * 1e-2;
+            else if (!string.IsNullOrEmpty(tbDm.Text))
+                meters = double.Parse(tbDm.Text) * 1e-1;
+            else if (!string.IsNullOrEmpty(tbM.Text))
+                meters = double.Parse(tbM.Text);
+            else if (!string.IsNullOrEmpty(tbKm.Text))
+                meters = double.Parse(tbKm.Text) * 1e3;
+            else if (!string.IsNullOrEmpty(tbInch.Text))
+                meters = double.Parse(tbInch.Text) * 0.0254;
+            else if (!string.IsNullOrEmpty(tbFoot.Text))
+                meters = double.Parse(tbFoot.Text) * 0.3048;
+            else if (!string.IsNullOrEmpty(tbYard.Text))
+                meters = double.Parse(tbYard.Text) * 0.9144;
+            else if (!string.IsNullOrEmpty(tbMile.Text))
+                meters = double.Parse(tbMile.Text) * 1609.344;
+            else
+                return; // nincs input
+
+            // Kitöltjük a többi TextBoxot
+            tbNm.Text = Math.Round(meters * 1e9, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(meters * 1e9, 10).ToString("F10").Length));
+            tbMm.Text = Math.Round(meters * 1e3, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(meters * 1e3, 10).ToString("F10").Length));
+            tbCm.Text = Math.Round(meters * 1e2, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(meters * 1e2, 10).ToString("F10").Length));
+            tbDm.Text = Math.Round(meters * 1e1, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(meters * 1e1, 10).ToString("F10").Length));
+            tbM.Text = Math.Round(meters, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(meters, 10).ToString("F10").Length));
+            tbKm.Text = Math.Round(meters / 1e3, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(meters / 1e3, 10).ToString("F10").Length));
+            tbInch.Text = Math.Round(meters / 0.0254, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(meters / 0.0254, 10).ToString("F10").Length));
+            tbFoot.Text = Math.Round(meters / 0.3048, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(meters / 0.3048, 10).ToString("F10").Length));
+            tbYard.Text = Math.Round(meters / 0.9144, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(meters / 0.9144, 10).ToString("F10").Length));
+            tbMile.Text = Math.Round(meters / 1609.344, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(meters / 1609.344, 10).ToString("F10").Length));
+
+            tbNm.ReadOnly = true;
+            tbMm.ReadOnly = true;
+            tbCm.ReadOnly = true;
+            tbDm.ReadOnly = true;
+            tbInch.ReadOnly = true;
+            tbFoot.ReadOnly = true;
+            tbYard.ReadOnly = true;
+            tbM.ReadOnly = true;
+            tbKm.ReadOnly = true;
+            tbMile.ReadOnly = true;
+        }
+
+        private void btnDistanceClear_Click(object sender, EventArgs e)
+        {
+            tbNm.Text = "";
+            tbMm.Text = "";
+            tbCm.Text = "";
+            tbDm.Text = "";
+            tbInch.Text = "";
+            tbFoot.Text = "";
+            tbYard.Text = "";
+            tbM.Text = "";
+            tbKm.Text = "";
+            tbMile.Text = "";
+
+            tbNm.ReadOnly = false;
+            tbMm.ReadOnly = false;
+            tbCm.ReadOnly = false;
+            tbDm.ReadOnly = false;
+            tbInch.ReadOnly = false;
+            tbFoot.ReadOnly = false;
+            tbYard.ReadOnly = false;
+            tbM.ReadOnly = false;
+            tbKm.ReadOnly = false;
+            tbMile.ReadOnly = false;
+
+        }
     }
 }

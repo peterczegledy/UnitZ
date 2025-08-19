@@ -52,7 +52,21 @@
             this.lMillennia = new System.Windows.Forms.Label();
             this.btnTimeCalculate = new System.Windows.Forms.Button();
             this.btnTimeClear = new System.Windows.Forms.Button();
+            this.gbDistance = new System.Windows.Forms.GroupBox();
+            this.tbNm = new System.Windows.Forms.TextBox();
+            this.tbMm = new System.Windows.Forms.TextBox();
+            this.tbCm = new System.Windows.Forms.TextBox();
+            this.tbDm = new System.Windows.Forms.TextBox();
+            this.tbInch = new System.Windows.Forms.TextBox();
+            this.tbFoot = new System.Windows.Forms.TextBox();
+            this.tbYard = new System.Windows.Forms.TextBox();
+            this.tbM = new System.Windows.Forms.TextBox();
+            this.tbKm = new System.Windows.Forms.TextBox();
+            this.tbMile = new System.Windows.Forms.TextBox();
+            this.btnDistanceCalculate = new System.Windows.Forms.Button();
+            this.btnDistanceClear = new System.Windows.Forms.Button();
             this.gbTime.SuspendLayout();
+            this.gbDistance.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbTime
@@ -198,14 +212,99 @@
             this.btnTimeClear.UseVisualStyleBackColor = true;
             this.btnTimeClear.Click += new System.EventHandler(this.btnTimeClear_Click);
             // 
+            // gbDistance
+            // 
+            this.gbDistance.Controls.Add(this.btnDistanceClear);
+            this.gbDistance.Controls.Add(this.btnDistanceCalculate);
+            this.gbDistance.Controls.Add(this.tbMile);
+            this.gbDistance.Controls.Add(this.tbKm);
+            this.gbDistance.Controls.Add(this.tbM);
+            this.gbDistance.Controls.Add(this.tbYard);
+            this.gbDistance.Controls.Add(this.tbFoot);
+            this.gbDistance.Controls.Add(this.tbInch);
+            this.gbDistance.Controls.Add(this.tbDm);
+            this.gbDistance.Controls.Add(this.tbCm);
+            this.gbDistance.Controls.Add(this.tbMm);
+            this.gbDistance.Controls.Add(this.tbNm);
+            resources.ApplyResources(this.gbDistance, "gbDistance");
+            this.gbDistance.Name = "gbDistance";
+            this.gbDistance.TabStop = false;
+            // 
+            // tbNm
+            // 
+            resources.ApplyResources(this.tbNm, "tbNm");
+            this.tbNm.Name = "tbNm";
+            // 
+            // tbMm
+            // 
+            resources.ApplyResources(this.tbMm, "tbMm");
+            this.tbMm.Name = "tbMm";
+            // 
+            // tbCm
+            // 
+            resources.ApplyResources(this.tbCm, "tbCm");
+            this.tbCm.Name = "tbCm";
+            // 
+            // tbDm
+            // 
+            resources.ApplyResources(this.tbDm, "tbDm");
+            this.tbDm.Name = "tbDm";
+            // 
+            // tbInch
+            // 
+            resources.ApplyResources(this.tbInch, "tbInch");
+            this.tbInch.Name = "tbInch";
+            // 
+            // tbFoot
+            // 
+            resources.ApplyResources(this.tbFoot, "tbFoot");
+            this.tbFoot.Name = "tbFoot";
+            // 
+            // tbYard
+            // 
+            resources.ApplyResources(this.tbYard, "tbYard");
+            this.tbYard.Name = "tbYard";
+            // 
+            // tbM
+            // 
+            resources.ApplyResources(this.tbM, "tbM");
+            this.tbM.Name = "tbM";
+            // 
+            // tbKm
+            // 
+            resources.ApplyResources(this.tbKm, "tbKm");
+            this.tbKm.Name = "tbKm";
+            // 
+            // tbMile
+            // 
+            resources.ApplyResources(this.tbMile, "tbMile");
+            this.tbMile.Name = "tbMile";
+            // 
+            // btnDistanceCalculate
+            // 
+            resources.ApplyResources(this.btnDistanceCalculate, "btnDistanceCalculate");
+            this.btnDistanceCalculate.Name = "btnDistanceCalculate";
+            this.btnDistanceCalculate.UseVisualStyleBackColor = true;
+            this.btnDistanceCalculate.Click += new System.EventHandler(this.btnDistanceCalculate_Click);
+            // 
+            // btnDistanceClear
+            // 
+            resources.ApplyResources(this.btnDistanceClear, "btnDistanceClear");
+            this.btnDistanceClear.Name = "btnDistanceClear";
+            this.btnDistanceClear.UseVisualStyleBackColor = true;
+            this.btnDistanceClear.Click += new System.EventHandler(this.btnDistanceClear_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.gbDistance);
             this.Controls.Add(this.gbTime);
             this.Name = "Form1";
             this.gbTime.ResumeLayout(false);
             this.gbTime.PerformLayout();
+            this.gbDistance.ResumeLayout(false);
+            this.gbDistance.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -235,6 +334,19 @@
         private System.Windows.Forms.TextBox tbSeconds;
         private System.Windows.Forms.Button btnTimeCalculate;
         private System.Windows.Forms.Button btnTimeClear;
+        private System.Windows.Forms.GroupBox gbDistance;
+        private System.Windows.Forms.Button btnDistanceCalculate;
+        private System.Windows.Forms.TextBox tbMile;
+        private System.Windows.Forms.TextBox tbKm;
+        private System.Windows.Forms.TextBox tbM;
+        private System.Windows.Forms.TextBox tbYard;
+        private System.Windows.Forms.TextBox tbFoot;
+        private System.Windows.Forms.TextBox tbInch;
+        private System.Windows.Forms.TextBox tbDm;
+        private System.Windows.Forms.TextBox tbCm;
+        private System.Windows.Forms.TextBox tbMm;
+        private System.Windows.Forms.TextBox tbNm;
+        private System.Windows.Forms.Button btnDistanceClear;
     }
 }
 
