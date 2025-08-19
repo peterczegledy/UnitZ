@@ -37,9 +37,9 @@ namespace Unitz
             else if (!string.IsNullOrEmpty(tbWeeks.Text))
                 seconds = double.Parse(tbWeeks.Text) * 604800;
             else if (!string.IsNullOrEmpty(tbMonths.Text))
-                seconds = double.Parse(tbMonths.Text) * 2629746; // átlagos hónap
+                seconds = double.Parse(tbMonths.Text) * 2629746;
             else if (!string.IsNullOrEmpty(tbYears.Text))
-                seconds = double.Parse(tbYears.Text) * 31556952; // átlagos év
+                seconds = double.Parse(tbYears.Text) * 31556952;
             else if (!string.IsNullOrEmpty(tbDecades.Text))
                 seconds = double.Parse(tbDecades.Text) * 315569520;
             else if (!string.IsNullOrEmpty(tbCenturies.Text))
@@ -49,7 +49,6 @@ namespace Unitz
             else
                 return;
 
-            // Kitöltés
             tbSeconds.Text = Math.Round(seconds, 10).ToString("F10");
             tbMinutes.Text = Math.Round(seconds / 60, 10).ToString("F10");
             tbHours.Text = Math.Round(seconds / 3600, 10).ToString("F10");
@@ -102,7 +101,6 @@ namespace Unitz
         {
             double meters = 0;
 
-            // Megnézzük, melyik TextBoxban van érték
             if (!string.IsNullOrEmpty(tbNm.Text))
                 meters = double.Parse(tbNm.Text) * 1e-9;
             else if (!string.IsNullOrEmpty(tbMm.Text))
@@ -124,9 +122,8 @@ namespace Unitz
             else if (!string.IsNullOrEmpty(tbMile.Text))
                 meters = double.Parse(tbMile.Text) * 1609.344;
             else
-                return; // nincs input
+                return;
 
-            // Kitöltjük a többi TextBoxot
             tbNm.Text = Math.Round(meters * 1e9, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(meters * 1e9, 10).ToString("F10").Length));
             tbMm.Text = Math.Round(meters * 1e3, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(meters * 1e3, 10).ToString("F10").Length));
             tbCm.Text = Math.Round(meters * 1e2, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(meters * 1e2, 10).ToString("F10").Length));
@@ -174,6 +171,75 @@ namespace Unitz
             tbKm.ReadOnly = false;
             tbMile.ReadOnly = false;
 
+        }
+
+        private void btnFluidCalculate_Click(object sender, EventArgs e)
+        {
+            double liters = 0;
+
+            if (!string.IsNullOrEmpty(tbMl.Text))
+                liters = double.Parse(tbMl.Text) / 1000.0;
+            else if (!string.IsNullOrEmpty(tbCl.Text))
+                liters = double.Parse(tbCl.Text) / 100.0;
+            else if (!string.IsNullOrEmpty(tbDl.Text))
+                liters = double.Parse(tbDl.Text) / 10.0;
+            else if (!string.IsNullOrEmpty(tbL.Text))
+                liters = double.Parse(tbL.Text);
+            else if (!string.IsNullOrEmpty(tbFlOz.Text))
+                liters = double.Parse(tbFlOz.Text) * 0.0295735;
+            else if (!string.IsNullOrEmpty(tbCup.Text))
+                liters = double.Parse(tbCup.Text) * 0.236588; 
+            else if (!string.IsNullOrEmpty(tbPint.Text))
+                liters = double.Parse(tbPint.Text) * 0.473176; 
+            else if (!string.IsNullOrEmpty(tbQuart.Text))
+                liters = double.Parse(tbQuart.Text) * 0.946353;
+            else if (!string.IsNullOrEmpty(tbGallon.Text))
+                liters = double.Parse(tbGallon.Text) * 3.78541;
+            else
+                return;
+
+            tbMl.Text = Math.Round(liters * 1000, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(liters * 1000, 10).ToString("F10").Length));
+            tbCl.Text = Math.Round(liters * 100, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(liters * 100, 10).ToString("F10").Length));
+            tbDl.Text = Math.Round(liters * 10, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(liters * 10, 10).ToString("F10").Length));
+            tbL.Text = Math.Round(liters, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(liters, 10).ToString("F10").Length));
+            tbFlOz.Text = Math.Round(liters / 0.0295735, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(liters / 0.0295735, 10).ToString("F10").Length));
+            tbCup.Text = Math.Round(liters / 0.236588, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(liters / 0.236588, 10).ToString("F10").Length));
+            tbPint.Text = Math.Round(liters / 0.473176, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(liters / 0.473176, 10).ToString("F10").Length));
+            tbQuart.Text = Math.Round(liters / 0.946353, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(liters / 0.946353, 10).ToString("F10").Length));
+            tbGallon.Text = Math.Round(liters / 3.78541, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(liters / 3.78541, 10).ToString("F10").Length));
+
+            tbMl.ReadOnly = true;
+            tbCl.ReadOnly = true;
+            tbDl.ReadOnly = true;
+            tbFlOz.ReadOnly = true;
+            tbCup.ReadOnly = true;
+            tbPint.ReadOnly = true;
+            tbQuart.ReadOnly = true;
+            tbL.ReadOnly = true;
+            tbGallon.ReadOnly = true;
+        }
+
+        private void btnFluidClear_Click(object sender, EventArgs e)
+        {
+            tbMl.Text = "";
+            tbCl.Text = "";
+            tbDl.Text = "";
+            tbFlOz.Text = "";
+            tbCup.Text = "";
+            tbPint.Text = "";
+            tbQuart.Text = "";
+            tbL.Text = "";
+            tbGallon.Text = "";
+
+            tbMl.ReadOnly = false;
+            tbCl.ReadOnly = false;
+            tbDl.ReadOnly = false;
+            tbFlOz.ReadOnly = false;
+            tbCup.ReadOnly = false;
+            tbPint.ReadOnly = false;
+            tbQuart.ReadOnly = false;
+            tbL.ReadOnly = false;
+            tbGallon.ReadOnly = false;
         }
     }
 }

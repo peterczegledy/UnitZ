@@ -65,8 +65,40 @@
             this.tbMile = new System.Windows.Forms.TextBox();
             this.btnDistanceCalculate = new System.Windows.Forms.Button();
             this.btnDistanceClear = new System.Windows.Forms.Button();
+            this.lNm = new System.Windows.Forms.Label();
+            this.lMm = new System.Windows.Forms.Label();
+            this.lCm = new System.Windows.Forms.Label();
+            this.lDm = new System.Windows.Forms.Label();
+            this.lInches = new System.Windows.Forms.Label();
+            this.lFoot = new System.Windows.Forms.Label();
+            this.lYard = new System.Windows.Forms.Label();
+            this.lM = new System.Windows.Forms.Label();
+            this.lKm = new System.Windows.Forms.Label();
+            this.lMile = new System.Windows.Forms.Label();
+            this.gbFluid = new System.Windows.Forms.GroupBox();
+            this.tbMl = new System.Windows.Forms.TextBox();
+            this.tbCl = new System.Windows.Forms.TextBox();
+            this.tbDl = new System.Windows.Forms.TextBox();
+            this.tbFlOz = new System.Windows.Forms.TextBox();
+            this.tbCup = new System.Windows.Forms.TextBox();
+            this.tbPint = new System.Windows.Forms.TextBox();
+            this.tbQuart = new System.Windows.Forms.TextBox();
+            this.tbL = new System.Windows.Forms.TextBox();
+            this.tbGallon = new System.Windows.Forms.TextBox();
+            this.lMl = new System.Windows.Forms.Label();
+            this.lCl = new System.Windows.Forms.Label();
+            this.lDl = new System.Windows.Forms.Label();
+            this.lFlOz = new System.Windows.Forms.Label();
+            this.lCup = new System.Windows.Forms.Label();
+            this.lPint = new System.Windows.Forms.Label();
+            this.lQuart = new System.Windows.Forms.Label();
+            this.lL = new System.Windows.Forms.Label();
+            this.lGallon = new System.Windows.Forms.Label();
+            this.btnFluidCalculate = new System.Windows.Forms.Button();
+            this.btnFluidClear = new System.Windows.Forms.Button();
             this.gbTime.SuspendLayout();
             this.gbDistance.SuspendLayout();
+            this.gbFluid.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbTime
@@ -214,6 +246,16 @@
             // 
             // gbDistance
             // 
+            this.gbDistance.Controls.Add(this.lMile);
+            this.gbDistance.Controls.Add(this.lKm);
+            this.gbDistance.Controls.Add(this.lM);
+            this.gbDistance.Controls.Add(this.lYard);
+            this.gbDistance.Controls.Add(this.lFoot);
+            this.gbDistance.Controls.Add(this.lInches);
+            this.gbDistance.Controls.Add(this.lDm);
+            this.gbDistance.Controls.Add(this.lCm);
+            this.gbDistance.Controls.Add(this.lMm);
+            this.gbDistance.Controls.Add(this.lNm);
             this.gbDistance.Controls.Add(this.btnDistanceClear);
             this.gbDistance.Controls.Add(this.btnDistanceCalculate);
             this.gbDistance.Controls.Add(this.tbMile);
@@ -294,10 +336,191 @@
             this.btnDistanceClear.UseVisualStyleBackColor = true;
             this.btnDistanceClear.Click += new System.EventHandler(this.btnDistanceClear_Click);
             // 
+            // lNm
+            // 
+            resources.ApplyResources(this.lNm, "lNm");
+            this.lNm.Name = "lNm";
+            // 
+            // lMm
+            // 
+            resources.ApplyResources(this.lMm, "lMm");
+            this.lMm.Name = "lMm";
+            // 
+            // lCm
+            // 
+            resources.ApplyResources(this.lCm, "lCm");
+            this.lCm.Name = "lCm";
+            // 
+            // lDm
+            // 
+            resources.ApplyResources(this.lDm, "lDm");
+            this.lDm.Name = "lDm";
+            // 
+            // lInches
+            // 
+            resources.ApplyResources(this.lInches, "lInches");
+            this.lInches.Name = "lInches";
+            // 
+            // lFoot
+            // 
+            resources.ApplyResources(this.lFoot, "lFoot");
+            this.lFoot.Name = "lFoot";
+            // 
+            // lYard
+            // 
+            resources.ApplyResources(this.lYard, "lYard");
+            this.lYard.Name = "lYard";
+            // 
+            // lM
+            // 
+            resources.ApplyResources(this.lM, "lM");
+            this.lM.Name = "lM";
+            // 
+            // lKm
+            // 
+            resources.ApplyResources(this.lKm, "lKm");
+            this.lKm.Name = "lKm";
+            // 
+            // lMile
+            // 
+            resources.ApplyResources(this.lMile, "lMile");
+            this.lMile.Name = "lMile";
+            // 
+            // gbFluid
+            // 
+            this.gbFluid.Controls.Add(this.btnFluidClear);
+            this.gbFluid.Controls.Add(this.btnFluidCalculate);
+            this.gbFluid.Controls.Add(this.lGallon);
+            this.gbFluid.Controls.Add(this.lL);
+            this.gbFluid.Controls.Add(this.lQuart);
+            this.gbFluid.Controls.Add(this.lPint);
+            this.gbFluid.Controls.Add(this.lCup);
+            this.gbFluid.Controls.Add(this.lFlOz);
+            this.gbFluid.Controls.Add(this.lDl);
+            this.gbFluid.Controls.Add(this.lCl);
+            this.gbFluid.Controls.Add(this.lMl);
+            this.gbFluid.Controls.Add(this.tbGallon);
+            this.gbFluid.Controls.Add(this.tbL);
+            this.gbFluid.Controls.Add(this.tbQuart);
+            this.gbFluid.Controls.Add(this.tbPint);
+            this.gbFluid.Controls.Add(this.tbCup);
+            this.gbFluid.Controls.Add(this.tbFlOz);
+            this.gbFluid.Controls.Add(this.tbDl);
+            this.gbFluid.Controls.Add(this.tbCl);
+            this.gbFluid.Controls.Add(this.tbMl);
+            resources.ApplyResources(this.gbFluid, "gbFluid");
+            this.gbFluid.Name = "gbFluid";
+            this.gbFluid.TabStop = false;
+            // 
+            // tbMl
+            // 
+            resources.ApplyResources(this.tbMl, "tbMl");
+            this.tbMl.Name = "tbMl";
+            // 
+            // tbCl
+            // 
+            resources.ApplyResources(this.tbCl, "tbCl");
+            this.tbCl.Name = "tbCl";
+            // 
+            // tbDl
+            // 
+            resources.ApplyResources(this.tbDl, "tbDl");
+            this.tbDl.Name = "tbDl";
+            // 
+            // tbFlOz
+            // 
+            resources.ApplyResources(this.tbFlOz, "tbFlOz");
+            this.tbFlOz.Name = "tbFlOz";
+            // 
+            // tbCup
+            // 
+            resources.ApplyResources(this.tbCup, "tbCup");
+            this.tbCup.Name = "tbCup";
+            // 
+            // tbPint
+            // 
+            resources.ApplyResources(this.tbPint, "tbPint");
+            this.tbPint.Name = "tbPint";
+            // 
+            // tbQuart
+            // 
+            resources.ApplyResources(this.tbQuart, "tbQuart");
+            this.tbQuart.Name = "tbQuart";
+            // 
+            // tbL
+            // 
+            resources.ApplyResources(this.tbL, "tbL");
+            this.tbL.Name = "tbL";
+            // 
+            // tbGallon
+            // 
+            resources.ApplyResources(this.tbGallon, "tbGallon");
+            this.tbGallon.Name = "tbGallon";
+            // 
+            // lMl
+            // 
+            resources.ApplyResources(this.lMl, "lMl");
+            this.lMl.Name = "lMl";
+            // 
+            // lCl
+            // 
+            resources.ApplyResources(this.lCl, "lCl");
+            this.lCl.Name = "lCl";
+            // 
+            // lDl
+            // 
+            resources.ApplyResources(this.lDl, "lDl");
+            this.lDl.Name = "lDl";
+            // 
+            // lFlOz
+            // 
+            resources.ApplyResources(this.lFlOz, "lFlOz");
+            this.lFlOz.Name = "lFlOz";
+            // 
+            // lCup
+            // 
+            resources.ApplyResources(this.lCup, "lCup");
+            this.lCup.Name = "lCup";
+            // 
+            // lPint
+            // 
+            resources.ApplyResources(this.lPint, "lPint");
+            this.lPint.Name = "lPint";
+            // 
+            // lQuart
+            // 
+            resources.ApplyResources(this.lQuart, "lQuart");
+            this.lQuart.Name = "lQuart";
+            // 
+            // lL
+            // 
+            resources.ApplyResources(this.lL, "lL");
+            this.lL.Name = "lL";
+            // 
+            // lGallon
+            // 
+            resources.ApplyResources(this.lGallon, "lGallon");
+            this.lGallon.Name = "lGallon";
+            // 
+            // btnFluidCalculate
+            // 
+            resources.ApplyResources(this.btnFluidCalculate, "btnFluidCalculate");
+            this.btnFluidCalculate.Name = "btnFluidCalculate";
+            this.btnFluidCalculate.UseVisualStyleBackColor = true;
+            this.btnFluidCalculate.Click += new System.EventHandler(this.btnFluidCalculate_Click);
+            // 
+            // btnFluidClear
+            // 
+            resources.ApplyResources(this.btnFluidClear, "btnFluidClear");
+            this.btnFluidClear.Name = "btnFluidClear";
+            this.btnFluidClear.UseVisualStyleBackColor = true;
+            this.btnFluidClear.Click += new System.EventHandler(this.btnFluidClear_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.gbFluid);
             this.Controls.Add(this.gbDistance);
             this.Controls.Add(this.gbTime);
             this.Name = "Form1";
@@ -305,6 +528,8 @@
             this.gbTime.PerformLayout();
             this.gbDistance.ResumeLayout(false);
             this.gbDistance.PerformLayout();
+            this.gbFluid.ResumeLayout(false);
+            this.gbFluid.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -347,6 +572,37 @@
         private System.Windows.Forms.TextBox tbMm;
         private System.Windows.Forms.TextBox tbNm;
         private System.Windows.Forms.Button btnDistanceClear;
+        private System.Windows.Forms.Label lMile;
+        private System.Windows.Forms.Label lKm;
+        private System.Windows.Forms.Label lM;
+        private System.Windows.Forms.Label lYard;
+        private System.Windows.Forms.Label lFoot;
+        private System.Windows.Forms.Label lInches;
+        private System.Windows.Forms.Label lDm;
+        private System.Windows.Forms.Label lCm;
+        private System.Windows.Forms.Label lMm;
+        private System.Windows.Forms.Label lNm;
+        private System.Windows.Forms.GroupBox gbFluid;
+        private System.Windows.Forms.TextBox tbGallon;
+        private System.Windows.Forms.TextBox tbL;
+        private System.Windows.Forms.TextBox tbQuart;
+        private System.Windows.Forms.TextBox tbPint;
+        private System.Windows.Forms.TextBox tbCup;
+        private System.Windows.Forms.TextBox tbFlOz;
+        private System.Windows.Forms.TextBox tbDl;
+        private System.Windows.Forms.TextBox tbCl;
+        private System.Windows.Forms.TextBox tbMl;
+        private System.Windows.Forms.Label lGallon;
+        private System.Windows.Forms.Label lL;
+        private System.Windows.Forms.Label lQuart;
+        private System.Windows.Forms.Label lPint;
+        private System.Windows.Forms.Label lCup;
+        private System.Windows.Forms.Label lFlOz;
+        private System.Windows.Forms.Label lDl;
+        private System.Windows.Forms.Label lCl;
+        private System.Windows.Forms.Label lMl;
+        private System.Windows.Forms.Button btnFluidCalculate;
+        private System.Windows.Forms.Button btnFluidClear;
     }
 }
 
