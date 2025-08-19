@@ -241,5 +241,85 @@ namespace Unitz
             tbL.ReadOnly = false;
             tbGallon.ReadOnly = false;
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnWeightCalculate_Click(object sender, EventArgs e)
+        {
+            double kilograms = 0;
+
+            if (!string.IsNullOrEmpty(tbMg.Text))
+                kilograms = double.Parse(tbMg.Text) / 1e6;
+            else if (!string.IsNullOrEmpty(tbG.Text))
+                kilograms = double.Parse(tbG.Text) / 1000.0;
+            else if (!string.IsNullOrEmpty(tbDag.Text))
+                kilograms = double.Parse(tbDag.Text) / 100.0;
+            else if (!string.IsNullOrEmpty(tbOz.Text))
+                kilograms = double.Parse(tbOz.Text) * 0.028349523125;
+            else if (!string.IsNullOrEmpty(tbLb.Text))
+                kilograms = double.Parse(tbLb.Text) * 0.45359237;
+            else if (!string.IsNullOrEmpty(tbKg.Text))
+                kilograms = double.Parse(tbKg.Text);
+            else if (!string.IsNullOrEmpty(tbSt.Text))
+                kilograms = double.Parse(tbSt.Text) * 6.35029318;
+            else if (!string.IsNullOrEmpty(tbT.Text))
+                kilograms = double.Parse(tbT.Text) * 1000.0;
+            else if (!string.IsNullOrEmpty(tbShortTon.Text))
+                kilograms = double.Parse(tbShortTon.Text) * 907.18474;
+            else if (!string.IsNullOrEmpty(tbLongTon.Text))
+                kilograms = double.Parse(tbLongTon.Text) * 1016.0469088;
+            else
+                return;
+
+            tbMg.Text = Math.Round(kilograms * 1e6, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(kilograms * 1e6, 10).ToString("F10").Length));
+            tbG.Text = Math.Round(kilograms * 1000.0, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(kilograms * 1000.0, 10).ToString("F10").Length));
+            tbDag.Text = Math.Round(kilograms * 100.0, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(kilograms * 100.0, 10).ToString("F10").Length));
+            tbOz.Text = Math.Round(kilograms / 0.028349523125, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(kilograms / 0.028349523125, 10).ToString("F10").Length));
+            tbLb.Text = Math.Round(kilograms / 0.45359237, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(kilograms / 0.45359237, 10).ToString("F10").Length));
+            tbKg.Text = Math.Round(kilograms, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(kilograms, 10).ToString("F10").Length));
+            tbSt.Text = Math.Round(kilograms / 6.35029318, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(kilograms / 6.35029318, 10).ToString("F10").Length));
+            tbT.Text = Math.Round(kilograms / 1000.0, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(kilograms / 1000.0, 10).ToString("F10").Length));
+            tbShortTon.Text = Math.Round(kilograms / 907.18474, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(kilograms / 907.18474, 10).ToString("F10").Length));
+            tbLongTon.Text = Math.Round(kilograms / 1016.0469088, 10).ToString("F10").Substring(0, Math.Min(13, Math.Round(kilograms / 1016.0469088, 10).ToString("F10").Length));
+
+            tbMg.ReadOnly = true;
+            tbG.ReadOnly = true;
+            tbDag.ReadOnly = true;
+            tbOz.ReadOnly = true;
+            tbLb.ReadOnly = true;
+            tbKg.ReadOnly = true;
+            tbSt.ReadOnly = true;
+            tbT.ReadOnly = true;
+            tbShortTon.ReadOnly = true;
+            tbLongTon.ReadOnly = true;
+        }
+
+        private void btnWeightClear_Click(object sender, EventArgs e)
+        {
+            tbMg.Text = "";
+            tbG.Text = "";
+            tbDag.Text = "";
+            tbOz.Text = "";
+            tbLb.Text = "";
+            tbKg.Text = "";
+            tbSt.Text = "";
+            tbT.Text = "";
+            tbShortTon.Text = "";
+            tbLongTon.Text = "";
+
+            tbMg.ReadOnly = false;
+            tbG.ReadOnly = false;
+            tbDag.ReadOnly = false;
+            tbOz.ReadOnly = false;
+            tbLb.ReadOnly = false;
+            tbKg.ReadOnly = false;
+            tbSt.ReadOnly = false;
+            tbT.ReadOnly = false;
+            tbShortTon.ReadOnly = false;
+            tbLongTon.ReadOnly = false;
+        }
     }
 }

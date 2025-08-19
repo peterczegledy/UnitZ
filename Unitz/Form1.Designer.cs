@@ -96,9 +96,33 @@
             this.lGallon = new System.Windows.Forms.Label();
             this.btnFluidCalculate = new System.Windows.Forms.Button();
             this.btnFluidClear = new System.Windows.Forms.Button();
+            this.gbWeight = new System.Windows.Forms.GroupBox();
+            this.tbMg = new System.Windows.Forms.TextBox();
+            this.tbG = new System.Windows.Forms.TextBox();
+            this.tbDag = new System.Windows.Forms.TextBox();
+            this.tbOz = new System.Windows.Forms.TextBox();
+            this.tbLb = new System.Windows.Forms.TextBox();
+            this.tbKg = new System.Windows.Forms.TextBox();
+            this.tbSt = new System.Windows.Forms.TextBox();
+            this.tbT = new System.Windows.Forms.TextBox();
+            this.tbShortTon = new System.Windows.Forms.TextBox();
+            this.tbLongTon = new System.Windows.Forms.TextBox();
+            this.lMg = new System.Windows.Forms.Label();
+            this.lG = new System.Windows.Forms.Label();
+            this.lDag = new System.Windows.Forms.Label();
+            this.lOz = new System.Windows.Forms.Label();
+            this.lLb = new System.Windows.Forms.Label();
+            this.lKg = new System.Windows.Forms.Label();
+            this.lSt = new System.Windows.Forms.Label();
+            this.lT = new System.Windows.Forms.Label();
+            this.lShortTon = new System.Windows.Forms.Label();
+            this.lLongTon = new System.Windows.Forms.Label();
+            this.btnWeightCalculate = new System.Windows.Forms.Button();
+            this.btnWeightClear = new System.Windows.Forms.Button();
             this.gbTime.SuspendLayout();
             this.gbDistance.SuspendLayout();
             this.gbFluid.SuspendLayout();
+            this.gbWeight.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbTime
@@ -516,10 +540,154 @@
             this.btnFluidClear.UseVisualStyleBackColor = true;
             this.btnFluidClear.Click += new System.EventHandler(this.btnFluidClear_Click);
             // 
+            // gbWeight
+            // 
+            this.gbWeight.Controls.Add(this.btnWeightClear);
+            this.gbWeight.Controls.Add(this.btnWeightCalculate);
+            this.gbWeight.Controls.Add(this.lLongTon);
+            this.gbWeight.Controls.Add(this.lShortTon);
+            this.gbWeight.Controls.Add(this.lT);
+            this.gbWeight.Controls.Add(this.lSt);
+            this.gbWeight.Controls.Add(this.lKg);
+            this.gbWeight.Controls.Add(this.lLb);
+            this.gbWeight.Controls.Add(this.lOz);
+            this.gbWeight.Controls.Add(this.lDag);
+            this.gbWeight.Controls.Add(this.lG);
+            this.gbWeight.Controls.Add(this.lMg);
+            this.gbWeight.Controls.Add(this.tbLongTon);
+            this.gbWeight.Controls.Add(this.tbShortTon);
+            this.gbWeight.Controls.Add(this.tbT);
+            this.gbWeight.Controls.Add(this.tbSt);
+            this.gbWeight.Controls.Add(this.tbKg);
+            this.gbWeight.Controls.Add(this.tbLb);
+            this.gbWeight.Controls.Add(this.tbOz);
+            this.gbWeight.Controls.Add(this.tbDag);
+            this.gbWeight.Controls.Add(this.tbG);
+            this.gbWeight.Controls.Add(this.tbMg);
+            resources.ApplyResources(this.gbWeight, "gbWeight");
+            this.gbWeight.Name = "gbWeight";
+            this.gbWeight.TabStop = false;
+            // 
+            // tbMg
+            // 
+            resources.ApplyResources(this.tbMg, "tbMg");
+            this.tbMg.Name = "tbMg";
+            this.tbMg.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // tbG
+            // 
+            resources.ApplyResources(this.tbG, "tbG");
+            this.tbG.Name = "tbG";
+            // 
+            // tbDag
+            // 
+            resources.ApplyResources(this.tbDag, "tbDag");
+            this.tbDag.Name = "tbDag";
+            // 
+            // tbOz
+            // 
+            resources.ApplyResources(this.tbOz, "tbOz");
+            this.tbOz.Name = "tbOz";
+            // 
+            // tbLb
+            // 
+            resources.ApplyResources(this.tbLb, "tbLb");
+            this.tbLb.Name = "tbLb";
+            // 
+            // tbKg
+            // 
+            resources.ApplyResources(this.tbKg, "tbKg");
+            this.tbKg.Name = "tbKg";
+            // 
+            // tbSt
+            // 
+            resources.ApplyResources(this.tbSt, "tbSt");
+            this.tbSt.Name = "tbSt";
+            // 
+            // tbT
+            // 
+            resources.ApplyResources(this.tbT, "tbT");
+            this.tbT.Name = "tbT";
+            // 
+            // tbShortTon
+            // 
+            resources.ApplyResources(this.tbShortTon, "tbShortTon");
+            this.tbShortTon.Name = "tbShortTon";
+            // 
+            // tbLongTon
+            // 
+            resources.ApplyResources(this.tbLongTon, "tbLongTon");
+            this.tbLongTon.Name = "tbLongTon";
+            // 
+            // lMg
+            // 
+            resources.ApplyResources(this.lMg, "lMg");
+            this.lMg.Name = "lMg";
+            // 
+            // lG
+            // 
+            resources.ApplyResources(this.lG, "lG");
+            this.lG.Name = "lG";
+            // 
+            // lDag
+            // 
+            resources.ApplyResources(this.lDag, "lDag");
+            this.lDag.Name = "lDag";
+            // 
+            // lOz
+            // 
+            resources.ApplyResources(this.lOz, "lOz");
+            this.lOz.Name = "lOz";
+            // 
+            // lLb
+            // 
+            resources.ApplyResources(this.lLb, "lLb");
+            this.lLb.Name = "lLb";
+            // 
+            // lKg
+            // 
+            resources.ApplyResources(this.lKg, "lKg");
+            this.lKg.Name = "lKg";
+            // 
+            // lSt
+            // 
+            resources.ApplyResources(this.lSt, "lSt");
+            this.lSt.Name = "lSt";
+            // 
+            // lT
+            // 
+            resources.ApplyResources(this.lT, "lT");
+            this.lT.Name = "lT";
+            // 
+            // lShortTon
+            // 
+            resources.ApplyResources(this.lShortTon, "lShortTon");
+            this.lShortTon.Name = "lShortTon";
+            // 
+            // lLongTon
+            // 
+            resources.ApplyResources(this.lLongTon, "lLongTon");
+            this.lLongTon.Name = "lLongTon";
+            // 
+            // btnWeightCalculate
+            // 
+            resources.ApplyResources(this.btnWeightCalculate, "btnWeightCalculate");
+            this.btnWeightCalculate.Name = "btnWeightCalculate";
+            this.btnWeightCalculate.UseVisualStyleBackColor = true;
+            this.btnWeightCalculate.Click += new System.EventHandler(this.btnWeightCalculate_Click);
+            // 
+            // btnWeightClear
+            // 
+            resources.ApplyResources(this.btnWeightClear, "btnWeightClear");
+            this.btnWeightClear.Name = "btnWeightClear";
+            this.btnWeightClear.UseVisualStyleBackColor = true;
+            this.btnWeightClear.Click += new System.EventHandler(this.btnWeightClear_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.gbWeight);
             this.Controls.Add(this.gbFluid);
             this.Controls.Add(this.gbDistance);
             this.Controls.Add(this.gbTime);
@@ -530,6 +698,8 @@
             this.gbDistance.PerformLayout();
             this.gbFluid.ResumeLayout(false);
             this.gbFluid.PerformLayout();
+            this.gbWeight.ResumeLayout(false);
+            this.gbWeight.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -603,6 +773,29 @@
         private System.Windows.Forms.Label lMl;
         private System.Windows.Forms.Button btnFluidCalculate;
         private System.Windows.Forms.Button btnFluidClear;
+        private System.Windows.Forms.GroupBox gbWeight;
+        private System.Windows.Forms.TextBox tbMg;
+        private System.Windows.Forms.TextBox tbLongTon;
+        private System.Windows.Forms.TextBox tbShortTon;
+        private System.Windows.Forms.TextBox tbT;
+        private System.Windows.Forms.TextBox tbSt;
+        private System.Windows.Forms.TextBox tbKg;
+        private System.Windows.Forms.TextBox tbLb;
+        private System.Windows.Forms.TextBox tbOz;
+        private System.Windows.Forms.TextBox tbDag;
+        private System.Windows.Forms.TextBox tbG;
+        private System.Windows.Forms.Label lKg;
+        private System.Windows.Forms.Label lLb;
+        private System.Windows.Forms.Label lOz;
+        private System.Windows.Forms.Label lDag;
+        private System.Windows.Forms.Label lG;
+        private System.Windows.Forms.Label lMg;
+        private System.Windows.Forms.Button btnWeightClear;
+        private System.Windows.Forms.Button btnWeightCalculate;
+        private System.Windows.Forms.Label lLongTon;
+        private System.Windows.Forms.Label lShortTon;
+        private System.Windows.Forms.Label lT;
+        private System.Windows.Forms.Label lSt;
     }
 }
 
